@@ -1,0 +1,23 @@
+.rock {
+  background-color: rgb(8, 66, 240);
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.paper {
+  background-color: rgb(240, 8, 8);
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.scissors {
+  background-color: rgb(8, 240, 20);
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 4px;
+}

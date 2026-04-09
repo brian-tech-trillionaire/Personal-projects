@@ -1,0 +1,14 @@
+/home/maruga/PERSONAL_PROJECTS/MINI-PROJECTS/C#-PROGRAMMING/Greeting/bin/Debug/net10.0/Greeting
+/home/maruga/PERSONAL_PROJECTS/MINI-PROJECTS/C#-PROGRAMMING/Greeting/bin/Debug/net10.0/Greeting.deps.json
+/home/maruga/PERSONAL_PROJECTS/MINI-PROJECTS/C#-PROGRAMMING/Greeting/bin/Debug/net10.0/Greeting.runtimeconfig.json
+/home/maruga/PERSONAL_PROJECTS/MINI-PROJECTS/C#-PROGRAMMING/Greeting/bin/Debug/net10.0/Greeting.dll
+/home/maruga/PERSONAL_PROJECTS/MINI-PROJECTS/C#-PROGRAMMING/Greeting/bin/Debug/net10.0/Greeting.pdb
+/home/maruga/PERSONAL_PROJECTS/MINI-PROJECTS/C#-PROGRAMMING/Greeting/obj/Debug/net10.0/Greeting.GeneratedMSBuildEditorConfig.editorconfig
+/home/maruga/PERSONAL_PROJECTS/MINI-PROJECTS/C#-PROGRAMMING/Greeting/obj/Debug/net10.0/Greeting.AssemblyInfoInputs.cache
+/home/maruga/PERSONAL_PROJECTS/MINI-PROJECTS/C#-PROGRAMMING/Greeting/obj/Debug/net10.0/Greeting.AssemblyInfo.cs
+/home/maruga/PERSONAL_PROJECTS/MINI-PROJECTS/C#-PROGRAMMING/Greeting/obj/Debug/net10.0/Greeting.csproj.CoreCompileInputs.cache
+/home/maruga/PERSONAL_PROJECTS/MINI-PROJECTS/C#-PROGRAMMING/Greeting/obj/Debug/net10.0/Greeting.dll
+/home/maruga/PERSONAL_PROJECTS/MINI-PROJECTS/C#-PROGRAMMING/Greeting/obj/Debug/net10.0/refint/Greeting.dll
+/home/maruga/PERSONAL_PROJECTS/MINI-PROJECTS/C#-PROGRAMMING/Greeting/obj/Debug/net10.0/Greeting.pdb
+/home/maruga/PERSONAL_PROJECTS/MINI-PROJECTS/C#-PROGRAMMING/Greeting/obj/Debug/net10.0/Greeting.genruntimeconfig.cache
+/home/maruga/PERSONAL_PROJECTS/MINI-PROJECTS/C#-PROGRAMMING/Greeting/obj/Debug/net10.0/ref/Greeting.dll

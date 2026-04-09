@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Head or Tails</title>
+  </head>
+  <body>
+    <button
+      onclick="
+        random = Math.random();
+
+        if (random <= 0.5) {
+          computerMove = 'Head';
+        } else {
+          computerMove = 'Tail';
+        }
+
+        let result = '';
+
+        if (computerMove === 'Head') {
+          result = `You guessed right.`;
+        } else {
+          result = 'You fail';
+        }
+
+        alert(`${result}.You guessed Head.Computer picked ${computerMove}`);
+      "
+    >
+      Head
+    </button>
+
+    <button
+      onclick="
+        random = Math.random();
+
+        if (random <= 0.5) {
+          computerMove = 'Head';
+        } else {
+          computerMove = 'Tail';
+        }
+
+        result = '';
+
+        if (computerMove === 'Tail') {
+          result = `You guessed right.`;
+        } else {
+          result = 'You fail';
+        }
+        alert(`${result}.You guessed Tail.Computer picked ${computerMove}`);
+      "
+    >
+      Tail
+    </button>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+/home/maruga/PERSONAL_PROJECTS/MINI-PROJECTS/C#-PROGRAMMING/Message/bin/Debug/net10.0/Message
+/home/maruga/PERSONAL_PROJECTS/MINI-PROJECTS/C#-PROGRAMMING/Message/bin/Debug/net10.0/Message.deps.json
+/home/maruga/PERSONAL_PROJECTS/MINI-PROJECTS/C#-PROGRAMMING/Message/bin/Debug/net10.0/Message.runtimeconfig.json
+/home/maruga/PERSONAL_PROJECTS/MINI-PROJECTS/C#-PROGRAMMING/Message/bin/Debug/net10.0/Message.dll
+/home/maruga/PERSONAL_PROJECTS/MINI-PROJECTS/C#-PROGRAMMING/Message/bin/Debug/net10.0/Message.pdb
+/home/maruga/PERSONAL_PROJECTS/MINI-PROJECTS/C#-PROGRAMMING/Message/obj/Debug/net10.0/Message.GeneratedMSBuildEditorConfig.editorconfig
+/home/maruga/PERSONAL_PROJECTS/MINI-PROJECTS/C#-PROGRAMMING/Message/obj/Debug/net10.0/Message.AssemblyInfoInputs.cache
+/home/maruga/PERSONAL_PROJECTS/MINI-PROJECTS/C#-PROGRAMMING/Message/obj/Debug/net10.0/Message.AssemblyInfo.cs
+/home/maruga/PERSONAL_PROJECTS/MINI-PROJECTS/C#-PROGRAMMING/Message/obj/Debug/net10.0/Message.csproj.CoreCompileInputs.cache
+/home/maruga/PERSONAL_PROJECTS/MINI-PROJECTS/C#-PROGRAMMING/Message/obj/Debug/net10.0/Message.dll
+/home/maruga/PERSONAL_PROJECTS/MINI-PROJECTS/C#-PROGRAMMING/Message/obj/Debug/net10.0/refint/Message.dll
+/home/maruga/PERSONAL_PROJECTS/MINI-PROJECTS/C#-PROGRAMMING/Message/obj/Debug/net10.0/Message.pdb
+/home/maruga/PERSONAL_PROJECTS/MINI-PROJECTS/C#-PROGRAMMING/Message/obj/Debug/net10.0/Message.genruntimeconfig.cache
+/home/maruga/PERSONAL_PROJECTS/MINI-PROJECTS/C#-PROGRAMMING/Message/obj/Debug/net10.0/ref/Message.dll

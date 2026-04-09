@@ -1,0 +1,112 @@
+h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+  font-style: italic;
+  color: rgb(4, 4, 138);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 350px 350px 350px 350px;
+  height: 500px;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+.image1 {
+  height: 700px;
+}
+.image2 {
+  height: 700px;
+}
+.image3 {
+  height: 700px;
+}
+
+.image4 {
+  height: 700px;
+}
+.image5 {
+  height: 700px;
+}
+.image6 {
+  height: 700px;
+}
+.image7 {
+  height: 700px ;
+}
+.image8 {
+  height: 700px;
+}
+.image9 {
+  height: 700px;
+}
+.image10 {
+  height: 700px;
+}
+.image11 {
+  height: 700px;
+}
+.image12 {
+  height: 700px;
+}
+
+.photo1 {
+  height: 700px;
+  width: 100%;
+}
+
+.photo2 {
+  height: 700px;
+  width: 100%;
+}
+
+.photo3 {
+  height: 700px;
+  width: 100%;
+}
+
+.photo4 {
+  height: 700px;
+  width: 100%;
+}
+
+.photo5 {
+  height: 700px;
+  width: 100%;
+}
+
+.photo6 {
+  height: 700px;
+  width: 100%;
+}
+
+.photo7 {
+  height: 700px;
+  width: 100%;
+}
+
+.photo8 {
+  height: 700px;
+  width: 100%;
+}
+
+.photo9 {
+  height: 700px;
+  width: 100%;
+}
+
+.photo10 {
+  height: 700px;
+  width: 100%;
+}
+
+.photo11 {
+  height: 700px;
+  width: 100%;
+}
+
+.photo12 {
+  height: 700px;
+  width: 100%;
+}
+

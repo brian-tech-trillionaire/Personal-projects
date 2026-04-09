@@ -1,0 +1,67 @@
+p{
+  font-family: Verdana;
+  color: white;
+  font-size: 19px;
+  margin-left: 65px;
+  font-weight: bold;
+}
+
+body {
+  background-color: rgb(20, 39, 105);
+}
+
+.Container{
+  display: grid;
+  grid-template-columns: 700px 700px;
+}
+
+.Part-one{
+  height: 600px;
+}
+
+.logo{
+  height: 480px;
+  width: 500px;
+  margin-top: 50px;
+  margin-left: 25px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.Part-two{
+  height: 600px;
+}
+
+.About {
+  display: flex;
+}
+
+h1{
+  margin-left: 40px;
+  color: white;
+}
+
+.event-time {
+  margin-left: 40px;
+  border-radius: 4px;
+  display: block;
+}
+
+button {
+  margin-top: 10px;
+  margin-left: 40px;
+  font-size: 21px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 6px;
+  padding-right: 40px;
+  border-radius: 12px;
+  color: rgb(48, 75, 182);
+  font-weight: bold;
+}
+
+a {
+  font-size: 20px;
+  color: rgb(54, 210, 215);
+}
+
