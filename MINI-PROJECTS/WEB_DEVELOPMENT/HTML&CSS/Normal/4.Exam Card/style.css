@@ -1,3 +1,52 @@
-h1 {
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+h1, h2 ,h3, h4, h5 {
   text-align: center;
+}
+
+h1 {
+  margin-bottom: 1px;
+}
+
+h2 {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+h3 {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+h4 {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+h5 {
+  margin-top: 1px;
+  margin-bottom: 1px;
+}
+
+.profile-photo {
+  margin-top: 15px;
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.statement-one {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.statement-two {
+  text-align: center;
+  margin-top: 2px;
+  font-size: 18px;
+  font-weight: bold;
 }
