@@ -38,15 +38,42 @@ h5 {
   border-radius: 6px;
 }
 
-.statement-one {
+.reg-no {
   text-align: center;
   font-size: 18px;
   margin-bottom: 0;
   font-weight: bold;
 }
-.statement-two {
+
+.name {
   text-align: center;
-  margin-top: 2px;
+  font-size: 18px;
+  margin-bottom: 0;
+  margin-top: 3px;
+  font-weight: bold;
+}
+
+table,thead,tbody,tr,td,th {
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 2px solid rgba(32, 30, 30, 0.983);
+  margin-left: 300px;
+}
+
+.note {
   font-size: 18px;
   font-weight: bold;
+  margin-bottom: 2px;
+}
+
+ol {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+  color: rgba(11, 10, 10, 0.983);
 }
