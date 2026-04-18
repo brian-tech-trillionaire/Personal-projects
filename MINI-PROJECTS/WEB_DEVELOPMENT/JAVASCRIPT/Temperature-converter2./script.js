@@ -1,8 +1,7 @@
 T = parseFloat(prompt("Enter the temperature in Celsius: "));
 
 function Fahreinheit(F) {
-  var F = T * 9/5 + 32;
-  return F;
+  return T * 9/5 + 32;
 }
 
 if (T === "") {
