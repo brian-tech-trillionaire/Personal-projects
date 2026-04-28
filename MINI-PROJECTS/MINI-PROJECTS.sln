@@ -1,0 +1,43 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C#-PROGRAMMING", "C#-PROGRAMMING", "{6AD87C08-05B8-F009-C830-C0C6636C6F55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Message", "C#-PROGRAMMING\Message\Message.csproj", "{AE06BEDB-4228-50C2-136E-FE23ED1115D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "C#-PROGRAMMING\Calculator\Calculator.csproj", "{B24CBC40-9543-7A41-7F73-F59FDC3C0C58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greeting", "C#-PROGRAMMING\Greeting\Greeting.csproj", "{A4C37F5B-9840-7405-CC52-00D3898F81E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE06BEDB-4228-50C2-136E-FE23ED1115D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE06BEDB-4228-50C2-136E-FE23ED1115D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE06BEDB-4228-50C2-136E-FE23ED1115D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE06BEDB-4228-50C2-136E-FE23ED1115D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B24CBC40-9543-7A41-7F73-F59FDC3C0C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B24CBC40-9543-7A41-7F73-F59FDC3C0C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B24CBC40-9543-7A41-7F73-F59FDC3C0C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B24CBC40-9543-7A41-7F73-F59FDC3C0C58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4C37F5B-9840-7405-CC52-00D3898F81E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4C37F5B-9840-7405-CC52-00D3898F81E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4C37F5B-9840-7405-CC52-00D3898F81E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4C37F5B-9840-7405-CC52-00D3898F81E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AE06BEDB-4228-50C2-136E-FE23ED1115D1} = {6AD87C08-05B8-F009-C830-C0C6636C6F55}
+		{B24CBC40-9543-7A41-7F73-F59FDC3C0C58} = {6AD87C08-05B8-F009-C830-C0C6636C6F55}
+		{A4C37F5B-9840-7405-CC52-00D3898F81E0} = {6AD87C08-05B8-F009-C830-C0C6636C6F55}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {580EB3DF-E057-43DB-8BB6-2794442F1B5D}
+	EndGlobalSection
+EndGlobal

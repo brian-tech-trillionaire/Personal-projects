@@ -1,112 +1,110 @@
-h1 {
-  font-size: 40px;
-  font-family: sans-serif;
-  font-style: italic;
-  color: rgb(4, 4, 138);
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  color: #333;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.header h1 {
+  font-size: 48px;
+  font-weight: 300;
+  margin: 0;
+  color: #2c3e50;
+}
+
+.header p {
+  font-size: 18px;
+  color: #7f8c8d;
+  margin: 10px 0 0 0;
 }
 
 .container {
   display: grid;
-  grid-template-columns: 350px 350px 350px 350px;
-  height: 500px;
-  row-gap: 20px;
-  column-gap: 20px;
-}
-.image1 {
-  height: 700px;
-}
-.image2 {
-  height: 700px;
-}
-.image3 {
-  height: 700px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
-.image4 {
-  height: 700px;
-}
-.image5 {
-  height: 700px;
-}
-.image6 {
-  height: 700px;
-}
-.image7 {
-  height: 700px ;
-}
-.image8 {
-  height: 700px;
-}
-.image9 {
-  height: 700px;
-}
-.image10 {
-  height: 700px;
-}
-.image11 {
-  height: 700px;
-}
-.image12 {
-  height: 700px;
+.image {
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
 }
 
-.photo1 {
-  height: 700px;
+.image:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+img {
   width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
 }
 
-.photo2 {
-  height: 700px;
-  width: 100%;
+.image:hover img {
+  transform: scale(1.05);
 }
 
-.photo3 {
-  height: 700px;
+/* Lightbox */
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
   width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
 }
 
-.photo4 {
-  height: 700px;
-  width: 100%;
+.lightbox.show {
+  display: flex;
 }
 
-.photo5 {
-  height: 700px;
-  width: 100%;
+.lightbox-content {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
 }
 
-.photo6 {
-  height: 700px;
-  width: 100%;
+.close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s;
 }
 
-.photo7 {
-  height: 700px;
-  width: 100%;
+.close:hover {
+  color: #bbb;
 }
 
-.photo8 {
-  height: 700px;
-  width: 100%;
-}
-
-.photo9 {
-  height: 700px;
-  width: 100%;
-}
-
-.photo10 {
-  height: 700px;
-  width: 100%;
-}
-
-.photo11 {
-  height: 700px;
-  width: 100%;
-}
-
-.photo12 {
-  height: 700px;
-  width: 100%;
+#caption {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 5px;
 }
 

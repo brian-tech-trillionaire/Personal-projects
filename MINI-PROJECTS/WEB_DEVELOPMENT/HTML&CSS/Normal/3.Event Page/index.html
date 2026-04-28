@@ -3,35 +3,108 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Event page</title>
+    <title>BRI-CORP Launching Event</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="Container">
-      <div class="Part-one">
-        <img
-          class="logo"
-          src="Images/Company-logo.png"
-          alt="Bri-corp company logo with two wolves symbols"
-        />
-      </div>
-      <div class="Part-two">
-        <div class="About">
-          <p>Agenda</p>
-          <p>Venue</p>
-          <p>Map</p>
-          <p>Register</p>
+    <header>
+      <nav>
+        <div class="logo-container">
+          <img
+            class="logo"
+            src="Images/Company-logo.png"
+            alt="Bri-corp company logo with two wolves symbols"
+          />
         </div>
+        <ul class="nav-links">
+          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#venue">Venue</a></li>
+          <li><a href="#map">Map</a></li>
+          <li><a href="#register">Register</a></li>
+        </ul>
+      </nav>
+    </header>
 
+    <main>
+      <section class="hero">
         <h1>BRI-CORP LAUNCHING EVENT</h1>
-        <img
-          src="Images/Date and time.png"
-          class="event-time"
-          alt="Countdown to the event"
-        />
-        <button>Register Now&rarr;</button>
-      </div>
-    </div>
-    <a href="#">Return to top</a>
+        <div id="countdown" class="countdown"></div>
+        <button class="register-btn">Register Now &rarr;</button>
+      </section>
+
+      <section id="agenda" class="section">
+        <h2>Agenda</h2>
+        <div class="agenda-content">
+          <div class="agenda-item">
+            <time>10:00 AM</time>
+            <p>Welcome and Introduction</p>
+          </div>
+          <div class="agenda-item">
+            <time>10:30 AM</time>
+            <p>Company Overview</p>
+          </div>
+          <div class="agenda-item">
+            <time>11:00 AM</time>
+            <p>Product Launch</p>
+          </div>
+          <div class="agenda-item">
+            <time>12:00 PM</time>
+            <p>Q&A Session</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="venue" class="section">
+        <h2>Venue</h2>
+        <p>
+          The event will be held at the Nairobi KICC Centre, located in the
+          heart of Nairobi.
+        </p>
+        <address>
+          Kenyatta International Conference Centre<br />
+          Harambee Avenue<br />
+          Nairobi, Kenya
+        </address>
+      </section>
+
+      <section id="map" class="section">
+        <h2>Map</h2>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8199178070215!2d36.816665!3d-1.283333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d4e6b1b1b1%3A0x1b1b1b1b1b1b1b1b!2sKenyatta%20International%20Conference%20Centre!5e0!3m2!1sen!2ske!4v1640995200000!5m2!1sen!2ske"
+            width="100%"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+      </section>
+
+      <section id="register" class="section">
+        <h2>Register</h2>
+        <form class="register-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="company">Company:</label>
+          <input type="text" id="company" name="company" />
+
+          <button type="submit">Submit Registration</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 BRI-CORP. All rights reserved.</p>
+      <a href="#top" class="back-to-top">Return to top</a>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
