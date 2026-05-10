@@ -5,9 +5,9 @@ namespace Greeting
   {
     static void Main(string[] args)
     {
-      Console.WriteLine("Message to Cristiano Maruga");
+      Console.WriteLine("Message to Cristiano Maruga:");
       Console.WriteLine("Hope your doing well Son.");
-      Console.WriteLine("Message to Librienn Muthoni");
+      Console.WriteLine("Message to Librienn Muthoni:");
       Console.WriteLine("Hope your doing well my daughter.");
     }
   }

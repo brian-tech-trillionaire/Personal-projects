@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Children Homework Handler</title>
-    <link rel="stylesheet" href="Styles/index.css" />
     <link rel="stylesheet" href="Styles/normalize.css" />
+    <link rel="stylesheet" href="Styles/index.css" />
   </head>
   <body>
-    <header>
-      <section>
+    <header class="site-header">
+      <section class="top-nav" aria-label="Quick links">
         <article></article>
         <article>Log in</article>
         <article>References</article>
@@ -19,26 +19,148 @@
         <article>Contact Us</article>
         <article>About Us</article>
       </section>
-      <h1>Children Homework Handler</h1>
+      <div class="header-inner">
+        <div class="brand">
+          <span class="brand-mark">CHH</span>
+          <div>
+            <p class="eyebrow">Student Productivity Platform</p>
+            <h1>Children Homework Handler</h1>
+          </div>
+        </div>
+        <nav class="primary-nav" aria-label="Primary Navigation">
+          <ul>
+            <li><a href="#subjects">Subjects</a></li>
+            <li><a href="#highlights">Highlights</a></li>
+            <li><a href="#support">Support</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
+
     <main>
-      <article class="subjects">
-        <button class="mathematics">Mathematics</button>
-        <button class="science">Science</button>
-        <button class="english">English</button>
-        <button class="history">History</button>
-        <button class="arts">Arts</button>
-        <button class="finances">Finances</button>
-        <button class="modelling">Modelling</button>
-        <button class="kiswahili">Kiswahili</button>
-        <button class="technology">Technology</button>
-        <button class="physical-education">Physical Education</button>
-        <button class="projects">Projects</button>
-        <button class="other">Other</button>
-      </article>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="tagline">
+            Organize assignments, access subject resources, and track progress
+            in one place.
+          </p>
+          <h2>Smart homework planning for young learners.</h2>
+          <p>
+            Find the right subject board, preview key tasks, and get started
+            with a single click.
+          </p>
+          <div class="search-wrap">
+            <label for="subject-search" class="visually-hidden"
+              >Search subjects</label
+            >
+            <input
+              id="subject-search"
+              type="search"
+              placeholder="Search subjects..."
+            />
+            <button id="clear-search" type="button">Clear</button>
+          </div>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-card">
+            <p class="stat-value">12</p>
+            <p class="stat-label">Subjects</p>
+          </div>
+          <div class="stat-card">
+            <p class="stat-value">24</p>
+            <p class="stat-label">Resources</p>
+          </div>
+          <div class="stat-card">
+            <p class="stat-value">100%</p>
+            <p class="stat-label">Fast access</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="subjects" class="subjects">
+        <div class="section-header">
+          <h3>Browse Subject Boards</h3>
+          <p>
+            Tap or click any subject to preview key tasks and suggested
+            resources.
+          </p>
+        </div>
+        <div class="subject-grid">
+          <button class="subject-card mathematics" data-subject="Mathematics">
+            <h4>Mathematics</h4>
+            <p>Practice core skills and problem-solving activities.</p>
+          </button>
+          <button class="subject-card science" data-subject="Science">
+            <h4>Science</h4>
+            <p>Explore experiments, notes, and science challenges.</p>
+          </button>
+          <button class="subject-card english" data-subject="English">
+            <h4>English</h4>
+            <p>Improve reading, writing, and language comprehension.</p>
+          </button>
+          <button class="subject-card history" data-subject="History">
+            <h4>History</h4>
+            <p>Review timelines, stories, and important events.</p>
+          </button>
+          <button class="subject-card arts" data-subject="Arts">
+            <h4>Arts</h4>
+            <p>Arts activities, creativity exercises, and visual projects.</p>
+          </button>
+          <button class="subject-card finances" data-subject="Finances">
+            <h4>Finances</h4>
+            <p>Learn budgeting, saving, and classroom money concepts.</p>
+          </button>
+          <button class="subject-card modelling" data-subject="Modelling">
+            <h4>Modelling</h4>
+            <p>Build models, practice design, and explore STEM challenges.</p>
+          </button>
+          <button class="subject-card kiswahili" data-subject="Kiswahili">
+            <h4>Kiswahili</h4>
+            <p>Read, write, and learn Kiswahili vocabulary and grammar.</p>
+          </button>
+          <button class="subject-card technology" data-subject="Technology">
+            <h4>Technology</h4>
+            <p>Discover coding concepts, digital tools, and tech skills.</p>
+          </button>
+          <button
+            class="subject-card physical-education"
+            data-subject="Physical Education"
+          >
+            <h4>Physical Education</h4>
+            <p>Stay active with healthy movement and sports challenges.</p>
+          </button>
+          <button class="subject-card projects" data-subject="Projects">
+            <h4>Projects</h4>
+            <p>Track assignments, presentations, and group learning tasks.</p>
+          </button>
+          <button class="subject-card other" data-subject="Other">
+            <h4>Other</h4>
+            <p>Additional lessons, support resources, and special topics.</p>
+          </button>
+        </div>
+      </section>
+
+      <section id="highlights" class="details-panel">
+        <h3>Subject Overview</h3>
+        <p class="details-text">
+          Select a subject card to see a quick overview and suggested
+          activities.
+        </p>
+      </section>
     </main>
-    <footer>
-      <button class="top"><a href="#">Return-to-top</a></button>
+
+    <footer class="site-footer" id="support">
+      <div>
+        <p>
+          Need help?
+          <a href="mailto:support@example.com">support@example.com</a>
+        </p>
+        <p id="about">Designed for parents, teachers, and learners.</p>
+      </div>
+      <button class="top" type="button">Return to top</button>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
